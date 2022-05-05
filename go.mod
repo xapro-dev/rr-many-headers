@@ -1,4 +1,4 @@
-module gihub.com/xapro-dev/rr-many-headers
+module github.com/xapro-dev/rr-many-headers
 
 go 1.16
 
