@@ -26,7 +26,7 @@ func (s *Plugin) Middleware(next http.Handler) http.Handler {
 		for _, route := s.cfg.routes {
 			match, _ = regexp.MatchString(route.regex, r.URL.RawPath)
 			if (match) {
-				for k, v := range s.cfg.headers {
+				for k, v := range route.headers {
 					w.Header().Set(k, v)				
 				}
 			}
