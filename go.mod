@@ -2,10 +2,4 @@ module github.com/xapro-dev/rr-many-headers
 
 go 1.16
 
-require (
-   github.com/spiral/endure v1.0.2
-   github.com/spiral/errors v1.0.11
-   github.com/spiral/goridge/v3 v3.1.4
-   github.com/spiral/roadrunner/v2 v2.3.2
-   github.com/stretchr/testify v1.7.0
-)
+require github.com/roadrunner-server/config v0.0.0-20220109203440-8a8b5c3e03f5
